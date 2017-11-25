@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Vivienne Wang</title>
+    <link href="css1.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+.auto-style1 {
+	margin-top: 67px;
+	font-size: medium;
+	margin-bottom: 0px;
+}
+.auto-style2 {
+	font-size: medium;
+}
+</style> </head>
+  <body><span class="auto-style2">
+      <!-- top menu -->
+      <ul style="height: 50px">
+        <li class="auto-style2"><a href="#home">Home</a></li>
+        <li class="auto-style2"><a href="#art_galary">Art Galary</a></li>
+        <li class="auto-style2"><a href="#photography">Photography</a></li>
+        <li class="auto-style2"><a href="#little_life">Little Life</a></li>
+        <li class="auto-style2" style="float:right"><a href="#about">About</a></li>
+        <li class="auto-style2" style="float:right"><a href="#contact">Contact</a></li>
+      </ul>
+    </span>
+    <!---------------------------------------------------------------------------------------------------------->
+    <br class="auto-style2">
+    <br class="auto-style2">
+    <br>
+    <h1 class="auto-style2">MY ART</h1>
+    <p class="auto-style2">This is a paragraph.</p>
+    <h1 class="auto-style2">This is heading 1</h1>
+    <p class="auto-style2">This is some text.</p>
+    <dl>
+      <dt class="auto-style2">text</dt>
+      <dd class="auto-style2">- text</dd>
+      <dt class="auto-style2">text</dt>
+      <dd class="auto-style2">- text</dd>
+    </dl>
+    <h2 class="auto-style2">This is heading 2</h2>
+    <p class="auto-style2"> Another paragraph </p>
+    <hr>
+    <p class="auto-style2">This is<br>
+      a paragraph<br>
+      with line breaks.</p>
+    <!-- image -->
+    <div class="flex-container">
+      <div class="gallery"> <a target="_blank" href="Girl%20in%20seashell.jpg">
+          <img src="Girl%20in%20seashell.jpg" alt="Girl In Seashell"> </a>
+        <div class="desc">Seashell Girl</div>
+      </div>
+      <div class="gallery"> <a target="_blank" href="War.jpg"> <img src="War.jpg"
+            alt="War"> </a>
+        <div class="desc">War</div>
+      </div>
+      <div class="gallery"> <a target="_blank" href="Promised%20land.jpg"> <img
+            src="Promised%20land.jpg" alt="Promised Land"> </a>
+        <div class="desc">Promised Land</div>
+      </div>
+      <div class="gallery"> <a target="_blank" href="butterfly.jpg"> <img src="butterfly.jpg"
+            alt="Butterfly"> </a>
+        <div class="desc">Butterfly</div>
+      </div>
+      <!-- table -->
+      <table>
+        <tbody>
+          <tr>
+            <th class="auto-style2">Company</th>
+            <th class="auto-style2">Contact</th>
+            <th class="auto-style2">Country</th>
+          </tr>
+          <tr>
+            <td class="auto-style2">Alfreds Futterkiste</td>
+            <td class="auto-style2">Maria Anders</td>
+            <td class="auto-style2">Germany</td>
+          </tr>
+          <tr>
+            <td class="auto-style2">Centro comercial Moctezuma</td>
+            <td class="auto-style2">Francisco Chang</td>
+            <td class="auto-style2">Mexico</td>
+          </tr>
+          <tr>
+            <td class="auto-style2">Ernst Handel</td>
+            <td class="auto-style2">Roland Mendel</td>
+            <td class="auto-style2">Austria</td>
+          </tr>
+          <tr>
+            <td class="auto-style2">Island Trading</td>
+            <td class="auto-style2">Helen Bennett</td>
+            <td class="auto-style2">UK</td>
+          </tr>
+          <tr>
+            <td class="auto-style2">Laughing Bacchus Winecellars</td>
+            <td class="auto-style2">Yoshi Tannamuri</td>
+            <td class="auto-style2">Canada</td>
+          </tr>
+          <tr>
+            <td class="auto-style2">Magazzini Alimentari Riuniti</td>
+            <td class="auto-style2">Giovanni Rovelli</td>
+            <td class="auto-style2">Italy</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

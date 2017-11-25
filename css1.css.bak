@@ -1,0 +1,117 @@
+﻿<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css" 
+    title="auto-enter long lines">
+  </head>
+  <body>
+    <pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;style&gt;
+
+</head>
+
+/* image */
+.flex-container {
+  	display: flex;
+  	background-color: #000000;
+  	background-image: url(IMG_3263.jpg);
+  	background-size: 100%;
+  	background-repeat: scroll;
+}
+div.gallery {
+	margin: 10px;
+	border: 1px solid #ccc;
+	height: auto;
+	float: left;
+	background-color: gray;
+}
+div.gallery a {
+	height: auto;
+	width: auto;
+}
+div.gallery:hover {
+	border: 1px solid #777;
+}
+div.gallery img {
+	margin: 20px;
+	height: 250px;
+	width: auto;
+}
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+/* overall */
+body {
+	background-position: left;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.flex-container&gt;div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* top menu */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #696969;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: seashell;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #282828;
+}
+&lt;/head&gt;
+
+/***********************************************************************************/
+
+&lt;body&gt;
+/* first section */
+h1 {
+	color: #333333;
+	font-family: verdana;
+	text-align: left;
+}
+p {
+	font-family: verdana;
+	font-size: 20px;
+}
+/* image */
+/* table */
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+&lt;/body&gt;
+
+&lt;/style&gt;
+&lt;/html&gt;</pre>
+  </body>
+</html>
